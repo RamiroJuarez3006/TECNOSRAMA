@@ -1,20 +1,27 @@
 .Hero{
     display: flex; 
+    padding-left: 10px;
 }
 img{
     width: 100%;
     height: auto;
 }
 .Textoprincipal{
+    padding-left: 8px;
    padding-top: 55px;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .presentacion{
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 53px;
 }
 .descdetexto{
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cartas{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
 }
