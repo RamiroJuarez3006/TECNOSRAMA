@@ -1,0 +1,68 @@
+.Hero {
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 55px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.Textoprincipal {
+    font-size: 470%;
+    padding-left: 8px;
+    padding-top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.descdetexto {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cartas {
+    padding: 1%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario {
+    padding: 1%;
+}
+
+.botonenviar {
+    padding-top: 1%;
+}
+
+form {
+    border: 1px solid gainsboro;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+}
+.navba {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
