@@ -12,30 +12,32 @@
 
 <body>
     <!--La Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">TECNOSRAMA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
+    <div class="navba">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TECNOSRAMA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!--El hero con desc-->
-    <div class="Hero">
+    <div id="Inicio" class="Hero">
         <div class="presentacion">
             <h1 class="Textoprincipal">TECNOSRAMA</h1>
             <p class="descdetexto">Esta es una mega-empresa de Argentina, creada por Ramiro Emmanuel Juarez,
@@ -48,7 +50,7 @@
         </div>
     </div>
     <!--Las cartas-->
-    <div class="cartas">
+    <div id="Productos" class="cartas">
         <div class="card" style="width: 18rem;">
             <img src="Imagenes/PS5.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -67,7 +69,7 @@
                 <p class="card-text">El iPhone 17 Pro Max, lanzado en 2025, es el modelo más avanzado de
                     Apple hasta esa fecha. Su precio inicial fue de alrededor de USD 1199 para la versión de 256
                     GB. Destaca por su pantalla OLED de 6,9", el chip A19 Pro
-                    con 12 GB de RAM y sus cámaras Fusion de 48 MP con zoom óptico</p>
+                    con 12 GB de RAM y sus cámaras Fusion de 48 MP con zoom óptico.</p>
                 <a href="#" class="btn btn-primary">Comprar ahora</a>
             </div>
         </div>
@@ -88,7 +90,7 @@
                 <h5 class="card-title">Lavarropas Electrolux LFC11</h5>
                 <p class="card-text">El Lavarropas Electrolux LFC11, de 2024, es un modelo de carga frontal con
                     capacidad de 10,5 kg, motor silencioso, y múltiples programas inteligentes. Su
-                    precio ronda los AR$965.000. Destaca por la función Quita Manchas y el panel Full Touch intuitivo.
+                    precio ronda los AR$965.000. Destaca por la función Quita Manchas y el panel Full Touch.
                 </p>
                 <a href="#" class="btn btn-primary">Comprar ahora</a>
             </div>
@@ -107,7 +109,7 @@
     </div>
 
     <!--Parte de el formulario de contacto-->
-    <div class="formulario">
+    <div id="Contacto" class="formulario">
         <h1>Contactanos:</h1>
         <form>
             <div class="mb-3">
@@ -123,11 +125,16 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <div class="botonenviar">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
         </form>
     </div>
     <!--Footer-->
+    <div class="footer">
+        <h3>Ramiro Juarez</h3>
+        <h3>4to Año</h3>
+        <h3>2026</h3>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
