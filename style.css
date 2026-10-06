@@ -1,38 +1,36 @@
+
 .Hero {
-    width: 100%;
+    width: 110%;
     display: flex;
-    padding-left: 15px;
-    padding-top: 55px;
+    padding-left: 1%;
+    padding-top: 4.5%;
 }
 
 img {
-    width: 100%;
+    padding-top: 14%;
+    width: 90%;
     height: auto;
 }
 
 .Textoprincipal {
-    font-size: 470%;
-    padding-left: 8px;
-    padding-top: 55px;
+    font-size: 150%;
+    padding-right: 1%;
+    padding-top: 34%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.botoninicio{
+    width: 10%;
+    height: 10%;
+}
 .presentacion {
     display: flex;
     flex-direction: column;
-    gap: 53px;
+    gap: 2%;
 }
 
 .descdetexto {
-    font-size: 17px;
+    font-size: 65%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.cartas {
-    padding: 1%;
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .formulario {
@@ -45,7 +43,7 @@ img {
 
 form {
     border: 1px solid gainsboro;
-    padding: 15px;
+    padding: 2%;
     border-radius: 8px;
     background: white;
 }
@@ -64,5 +62,4 @@ form {
   width: 100%;
   z-index: 9999;
 }
-
 
